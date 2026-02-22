@@ -183,3 +183,4 @@
 2026-02-12 16:37:03,013 - ERROR - $MLVDN.LS: possibly delisted; no timezone found
 2026-02-12 16:37:03,641 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLVDN.LS"}}}
 2026-02-12 16:37:36,663 - ERROR - MLVRF.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-02-13 08:32:15,219 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GOOGL.NAS"}}}
