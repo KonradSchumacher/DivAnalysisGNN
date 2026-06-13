@@ -1748,3 +1748,490 @@
 2026-04-09 13:00:25,446 - ERROR - 
 1 Failed download:
 2026-04-09 13:00:25,446 - ERROR - ['NONEUSD=X']: possibly delisted; no price data found  (period=20y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 08:58:29,732 - ERROR - 
+1 Failed download:
+2026-06-08 08:58:29,733 - ERROR - ['MYSZ']: TypeError("'NoneType' object is not subscriptable")
+2026-06-08 09:34:39,854 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ACHR.WS"}}}
+2026-06-08 09:34:40,120 - ERROR - $ACHR.WS: possibly delisted; no timezone found
+2026-06-08 09:34:40,708 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ACHR.WS"}}}
+2026-06-08 09:34:40,997 - ERROR - $ACHR.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:34:41,006 - ERROR - 
+1 Failed download:
+2026-06-08 09:34:41,006 - ERROR - ['ACHR.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:35:36,597 - ERROR - $AGM.A: possibly delisted; no timezone found
+2026-06-08 09:35:37,344 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AGM.A"}}}
+2026-06-08 09:35:37,768 - ERROR - $AGM.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:35:37,769 - ERROR - 
+1 Failed download:
+2026-06-08 09:35:37,769 - ERROR - ['AGM.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:35:38,200 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AGM.A"}}}
+2026-06-08 09:36:21,535 - ERROR - $AKO.A: possibly delisted; no timezone found
+2026-06-08 09:36:22,067 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKO.A"}}}
+2026-06-08 09:36:22,340 - ERROR - $AKO.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:36:22,356 - ERROR - 
+1 Failed download:
+2026-06-08 09:36:22,356 - ERROR - ['AKO.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:36:22,891 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKO.A"}}}
+2026-06-08 09:36:24,081 - ERROR - $AKO.B: possibly delisted; no timezone found
+2026-06-08 09:36:24,718 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKO.B"}}}
+2026-06-08 09:36:25,289 - ERROR - $AKO.B: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:36:25,296 - ERROR - 
+1 Failed download:
+2026-06-08 09:36:25,296 - ERROR - ['AKO.B']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:36:25,976 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKO.B"}}}
+2026-06-08 09:37:09,300 - ERROR - $AMPX.WS: possibly delisted; no timezone found
+2026-06-08 09:37:09,905 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AMPX.WS"}}}
+2026-06-08 09:37:10,168 - ERROR - $AMPX.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:37:10,177 - ERROR - 
+1 Failed download:
+2026-06-08 09:37:10,177 - ERROR - ['AMPX.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:37:10,659 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AMPX.WS"}}}
+2026-06-08 09:40:41,693 - ERROR - $BBAI.WS: possibly delisted; no timezone found
+2026-06-08 09:40:42,243 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBAI.WS"}}}
+2026-06-08 09:40:42,558 - ERROR - $BBAI.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:40:42,566 - ERROR - 
+1 Failed download:
+2026-06-08 09:40:42,566 - ERROR - ['BBAI.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:40:43,022 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBAI.WS"}}}
+2026-06-08 09:40:46,358 - ERROR - $BBBY.WS: possibly delisted; no timezone found
+2026-06-08 09:40:46,985 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBBY.WS"}}}
+2026-06-08 09:40:47,395 - ERROR - $BBBY.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:40:47,404 - ERROR - 
+1 Failed download:
+2026-06-08 09:40:47,404 - ERROR - ['BBBY.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:40:47,935 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BBBY.WS"}}}
+2026-06-08 09:41:35,942 - ERROR - $BESS.WS: possibly delisted; no timezone found
+2026-06-08 09:41:36,647 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BESS.WS"}}}
+2026-06-08 09:41:36,904 - ERROR - $BESS.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:41:36,907 - ERROR - 
+1 Failed download:
+2026-06-08 09:41:36,907 - ERROR - ['BESS.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:41:37,435 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BESS.WS"}}}
+2026-06-08 09:41:40,875 - ERROR - $BF.A: possibly delisted; no timezone found
+2026-06-08 09:41:41,462 - ERROR - $BF.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:41:41,465 - ERROR - 
+1 Failed download:
+2026-06-08 09:41:41,465 - ERROR - ['BF.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:41:42,879 - ERROR - $BF.B: possibly delisted; no price data found  (1d 1927-07-03 -> 2026-06-08)
+2026-06-08 09:41:43,434 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BF.B"}}}
+2026-06-08 09:41:43,512 - ERROR - $BF.B: possibly delisted; no price data found  (period=5y)
+2026-06-08 09:41:43,521 - ERROR - 
+1 Failed download:
+2026-06-08 09:41:43,521 - ERROR - ['BF.B']: possibly delisted; no price data found  (period=5y)
+2026-06-08 09:42:03,322 - ERROR - $BH.A: possibly delisted; no timezone found
+2026-06-08 09:42:03,864 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BH.A"}}}
+2026-06-08 09:42:04,490 - ERROR - $BH.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:42:04,494 - ERROR - 
+1 Failed download:
+2026-06-08 09:42:04,494 - ERROR - ['BH.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:42:04,928 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BH.A"}}}
+2026-06-08 09:42:22,151 - ERROR - $BIO.B: possibly delisted; no price data found  (1d 1927-07-03 -> 2026-06-08)
+2026-06-08 09:42:22,813 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BIO.B"}}}
+2026-06-08 09:42:22,900 - ERROR - $BIO.B: possibly delisted; no price data found  (period=5y)
+2026-06-08 09:42:22,911 - ERROR - 
+1 Failed download:
+2026-06-08 09:42:22,911 - ERROR - ['BIO.B']: possibly delisted; no price data found  (period=5y)
+2026-06-08 09:42:36,801 - ERROR - $BKKT.WS: possibly delisted; no timezone found
+2026-06-08 09:42:37,439 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BKKT.WS"}}}
+2026-06-08 09:42:38,226 - ERROR - $BKKT.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:42:38,240 - ERROR - 
+1 Failed download:
+2026-06-08 09:42:38,240 - ERROR - ['BKKT.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:42:38,707 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BKKT.WS"}}}
+2026-06-08 09:42:42,082 - ERROR - $BKSY.WS: possibly delisted; no timezone found
+2026-06-08 09:42:42,613 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BKSY.WS"}}}
+2026-06-08 09:42:42,879 - ERROR - $BKSY.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:42:42,889 - ERROR - 
+1 Failed download:
+2026-06-08 09:42:42,889 - ERROR - ['BKSY.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:42:43,624 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BKSY.WS"}}}
+2026-06-08 09:43:48,767 - ERROR - $BRK.A: possibly delisted; no timezone found
+2026-06-08 09:43:49,333 - ERROR - $BRK.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:43:49,348 - ERROR - 
+1 Failed download:
+2026-06-08 09:43:49,348 - ERROR - ['BRK.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:43:50,921 - ERROR - $BRK.B: possibly delisted; no timezone found
+2026-06-08 09:43:51,460 - ERROR - $BRK.B: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:43:51,461 - ERROR - 
+1 Failed download:
+2026-06-08 09:43:51,461 - ERROR - ['BRK.B']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:49:27,532 - ERROR - $CRD.A: possibly delisted; no timezone found
+2026-06-08 09:49:28,147 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CRD.A"}}}
+2026-06-08 09:49:28,450 - ERROR - $CRD.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:49:28,462 - ERROR - 
+1 Failed download:
+2026-06-08 09:49:28,462 - ERROR - ['CRD.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:49:29,875 - ERROR - $CRD.B: possibly delisted; no timezone found
+2026-06-08 09:49:31,277 - ERROR - $CRD.B: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:49:31,284 - ERROR - 
+1 Failed download:
+2026-06-08 09:49:31,284 - ERROR - ['CRD.B']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:56:26,473 - ERROR - $EONR.WS: possibly delisted; no timezone found
+2026-06-08 09:56:27,115 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EONR.WS"}}}
+2026-06-08 09:56:27,436 - ERROR - $EONR.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:56:27,440 - ERROR - 
+1 Failed download:
+2026-06-08 09:56:27,440 - ERROR - ['EONR.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:56:28,076 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EONR.WS"}}}
+2026-06-08 09:57:36,406 - ERROR - $EVEX.WS: possibly delisted; no timezone found
+2026-06-08 09:57:37,036 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EVEX.WS"}}}
+2026-06-08 09:57:37,568 - ERROR - $EVEX.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:57:37,580 - ERROR - 
+1 Failed download:
+2026-06-08 09:57:37,580 - ERROR - ['EVEX.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:57:38,096 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EVEX.WS"}}}
+2026-06-08 09:59:33,771 - ERROR - $FLYX.WS: possibly delisted; no timezone found
+2026-06-08 09:59:34,365 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FLYX.WS"}}}
+2026-06-08 09:59:34,908 - ERROR - $FLYX.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:59:34,910 - ERROR - 
+1 Failed download:
+2026-06-08 09:59:34,911 - ERROR - ['FLYX.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 09:59:35,442 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FLYX.WS"}}}
+2026-06-08 10:00:47,553 - ERROR - $FTW.WS: possibly delisted; no timezone found
+2026-06-08 10:00:48,363 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FTW.WS"}}}
+2026-06-08 10:00:48,782 - ERROR - $FTW.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:00:48,792 - ERROR - 
+1 Failed download:
+2026-06-08 10:00:48,792 - ERROR - ['FTW.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:00:49,222 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FTW.WS"}}}
+2026-06-08 10:01:33,308 - ERROR - $GCTS.WS: possibly delisted; no timezone found
+2026-06-08 10:01:34,122 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GCTS.WS"}}}
+2026-06-08 10:01:34,391 - ERROR - $GCTS.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:01:34,398 - ERROR - 
+1 Failed download:
+2026-06-08 10:01:34,398 - ERROR - ['GCTS.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:01:34,993 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GCTS.WS"}}}
+2026-06-08 10:01:54,500 - ERROR - $GEF.B: possibly delisted; no price data found  (1d 1927-07-03 -> 2026-06-08)
+2026-06-08 10:01:55,091 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GEF.B"}}}
+2026-06-08 10:01:55,169 - ERROR - $GEF.B: possibly delisted; no price data found  (period=5y)
+2026-06-08 10:01:55,182 - ERROR - 
+1 Failed download:
+2026-06-08 10:01:55,182 - ERROR - ['GEF.B']: possibly delisted; no price data found  (period=5y)
+2026-06-08 10:02:47,289 - ERROR - $GME.WS: possibly delisted; no timezone found
+2026-06-08 10:02:47,915 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GME.WS"}}}
+2026-06-08 10:02:48,246 - ERROR - $GME.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:02:48,260 - ERROR - 
+1 Failed download:
+2026-06-08 10:02:48,260 - ERROR - ['GME.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:02:48,746 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GME.WS"}}}
+2026-06-08 10:03:57,015 - ERROR - $GTN.A: possibly delisted; no timezone found
+2026-06-08 10:03:57,779 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GTN.A"}}}
+2026-06-08 10:03:58,063 - ERROR - $GTN.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:03:58,072 - ERROR - 
+1 Failed download:
+2026-06-08 10:03:58,072 - ERROR - ['GTN.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:04:53,412 - ERROR - $HEI.A: possibly delisted; no timezone found
+2026-06-08 10:04:53,992 - ERROR - $HEI.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:04:53,999 - ERROR - 
+1 Failed download:
+2026-06-08 10:04:53,999 - ERROR - ['HEI.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:06:39,457 - ERROR - $HVT.A: possibly delisted; no timezone found
+2026-06-08 10:06:40,258 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HVT.A"}}}
+2026-06-08 10:06:40,597 - ERROR - $HVT.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:06:40,608 - ERROR - 
+1 Failed download:
+2026-06-08 10:06:40,608 - ERROR - ['HVT.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:06:41,222 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HVT.A"}}}
+2026-06-08 10:07:53,202 - ERROR - $INFQ.WS: possibly delisted; no timezone found
+2026-06-08 10:07:53,735 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: INFQ.WS"}}}
+2026-06-08 10:07:54,059 - ERROR - $INFQ.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:07:54,064 - ERROR - 
+1 Failed download:
+2026-06-08 10:07:54,064 - ERROR - ['INFQ.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:07:55,225 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: INFQ.WS"}}}
+2026-06-08 10:08:25,946 - ERROR - $IONQ.WS: possibly delisted; no timezone found
+2026-06-08 10:08:26,494 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: IONQ.WS"}}}
+2026-06-08 10:08:26,826 - ERROR - $IONQ.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:08:26,828 - ERROR - 
+1 Failed download:
+2026-06-08 10:08:26,828 - ERROR - ['IONQ.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:08:27,253 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: IONQ.WS"}}}
+2026-06-08 10:13:35,413 - ERROR - $LVWR.WS: possibly delisted; no timezone found
+2026-06-08 10:13:35,991 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LVWR.WS"}}}
+2026-06-08 10:13:36,275 - ERROR - $LVWR.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:13:36,281 - ERROR - 
+1 Failed download:
+2026-06-08 10:13:36,281 - ERROR - ['LVWR.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:13:36,696 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LVWR.WS"}}}
+2026-06-08 10:15:58,678 - ERROR - $MKC.V: possibly delisted; no timezone found
+2026-06-08 10:15:59,225 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MKC.V"}}}
+2026-06-08 10:15:59,589 - ERROR - $MKC.V: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:15:59,601 - ERROR - 
+1 Failed download:
+2026-06-08 10:15:59,601 - ERROR - ['MKC.V']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:16:00,133 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MKC.V"}}}
+2026-06-08 10:16:35,310 - ERROR - $MOG.A: possibly delisted; no timezone found
+2026-06-08 10:16:35,911 - ERROR - $MOG.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:16:35,914 - ERROR - 
+1 Failed download:
+2026-06-08 10:16:35,914 - ERROR - ['MOG.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:16:37,313 - ERROR - $MOG.B: possibly delisted; no timezone found
+2026-06-08 10:16:37,937 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MOG.B"}}}
+2026-06-08 10:16:38,288 - ERROR - $MOG.B: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:16:38,292 - ERROR - 
+1 Failed download:
+2026-06-08 10:16:38,292 - ERROR - ['MOG.B']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:16:38,846 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MOG.B"}}}
+2026-06-08 10:20:54,780 - ERROR - $NPWR.WS: possibly delisted; no timezone found
+2026-06-08 10:20:55,520 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NPWR.WS"}}}
+2026-06-08 10:20:55,849 - ERROR - $NPWR.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:20:55,855 - ERROR - 
+1 Failed download:
+2026-06-08 10:20:55,855 - ERROR - ['NPWR.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:20:56,353 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NPWR.WS"}}}
+2026-06-08 10:21:48,924 - ERROR - $NWAX.U: possibly delisted; no timezone found
+2026-06-08 10:21:49,562 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NWAX.U"}}}
+2026-06-08 10:21:50,480 - ERROR - $NWAX.U: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:21:50,495 - ERROR - 
+1 Failed download:
+2026-06-08 10:21:50,495 - ERROR - ['NWAX.U']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:21:51,048 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NWAX.U"}}}
+2026-06-08 10:21:52,304 - ERROR - $NWAX.WS: possibly delisted; no timezone found
+2026-06-08 10:21:52,901 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NWAX.WS"}}}
+2026-06-08 10:21:53,272 - ERROR - $NWAX.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:21:53,273 - ERROR - 
+1 Failed download:
+2026-06-08 10:21:53,273 - ERROR - ['NWAX.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:21:53,874 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NWAX.WS"}}}
+2026-06-08 10:25:29,201 - ERROR - $PEW.WS: possibly delisted; no timezone found
+2026-06-08 10:25:29,787 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEW.WS"}}}
+2026-06-08 10:25:30,260 - ERROR - $PEW.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:25:30,271 - ERROR - 
+1 Failed download:
+2026-06-08 10:25:30,271 - ERROR - ['PEW.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:25:30,713 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PEW.WS"}}}
+2026-06-08 10:27:57,878 - ERROR - $PSQH.WS: possibly delisted; no timezone found
+2026-06-08 10:27:58,477 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PSQH.WS"}}}
+2026-06-08 10:27:58,881 - ERROR - $PSQH.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:27:58,890 - ERROR - 
+1 Failed download:
+2026-06-08 10:27:58,890 - ERROR - ['PSQH.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:27:59,311 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PSQH.WS"}}}
+2026-06-08 10:32:57,347 - ERROR - $SES.WS: possibly delisted; no timezone found
+2026-06-08 10:32:57,873 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SES.WS"}}}
+2026-06-08 10:32:58,357 - ERROR - $SES.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:32:58,368 - ERROR - 
+1 Failed download:
+2026-06-08 10:32:58,368 - ERROR - ['SES.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:32:59,060 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SES.WS"}}}
+2026-06-08 10:33:51,138 - ERROR - $SKYH.WS: possibly delisted; no timezone found
+2026-06-08 10:33:51,680 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SKYH.WS"}}}
+2026-06-08 10:33:51,948 - ERROR - $SKYH.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:33:51,950 - ERROR - 
+1 Failed download:
+2026-06-08 10:33:51,951 - ERROR - ['SKYH.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:33:52,955 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SKYH.WS"}}}
+2026-06-08 10:36:40,461 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SWZ"}}}
+2026-06-08 10:37:03,956 - ERROR - $TAP.A: possibly delisted; no timezone found
+2026-06-08 10:37:04,547 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TAP.A"}}}
+2026-06-08 10:37:04,832 - ERROR - $TAP.A: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:37:04,834 - ERROR - 
+1 Failed download:
+2026-06-08 10:37:04,835 - ERROR - ['TAP.A']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:37:05,256 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TAP.A"}}}
+2026-06-08 10:37:38,125 - ERROR - $TE.WS: possibly delisted; no timezone found
+2026-06-08 10:37:38,680 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TE.WS"}}}
+2026-06-08 10:37:38,952 - ERROR - $TE.WS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:37:38,954 - ERROR - 
+1 Failed download:
+2026-06-08 10:37:38,954 - ERROR - ['TE.WS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:37:39,578 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TE.WS"}}}
+2026-06-08 10:40:56,659 - ERROR - $UHAL.B: possibly delisted; no price data found  (1d 1927-07-03 -> 2026-06-08)
+2026-06-08 10:40:57,301 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: UHAL.B"}}}
+2026-06-08 10:40:57,382 - ERROR - $UHAL.B: possibly delisted; no price data found  (period=5y)
+2026-06-08 10:40:57,392 - ERROR - 
+1 Failed download:
+2026-06-08 10:40:57,392 - ERROR - ['UHAL.B']: possibly delisted; no price data found  (period=5y)
+2026-06-08 10:45:34,800 - ERROR - $WSO.B: possibly delisted; no timezone found
+2026-06-08 10:45:35,434 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: WSO.B"}}}
+2026-06-08 10:45:35,697 - ERROR - $WSO.B: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:45:35,711 - ERROR - 
+1 Failed download:
+2026-06-08 10:45:35,712 - ERROR - ['WSO.B']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:45:36,195 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: WSO.B"}}}
+2026-06-08 10:47:22,100 - ERROR - AIM2.MI: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 10:48:51,998 - ERROR - $MLADE.BR: possibly delisted; no timezone found
+2026-06-08 10:48:52,606 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLADE.BR"}}}
+2026-06-08 10:48:52,905 - ERROR - $MLADE.BR: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:48:52,912 - ERROR - 
+1 Failed download:
+2026-06-08 10:48:52,912 - ERROR - ['MLADE.BR']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:49:17,633 - ERROR - AEDES.MI: auto_adjust failed with unsupported operand type(s) for /: 'str' and 'float'
+2026-06-08 10:49:53,253 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLAGP.PA"}}}
+2026-06-08 10:50:43,831 - ERROR - $ARNDD.MI: possibly delisted; no timezone found
+2026-06-08 10:50:44,656 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ARNDD.MI"}}}
+2026-06-08 10:50:44,991 - ERROR - $ARNDD.MI: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:50:45,002 - ERROR - 
+1 Failed download:
+2026-06-08 10:50:45,002 - ERROR - ['ARNDD.MI']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:51:50,673 - ERROR - MLASO.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 10:52:23,759 - ERROR - MLARE.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 10:52:41,260 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLARO.PA"}}}
+2026-06-08 10:52:43,132 - ERROR - $MLARR.LS: possibly delisted; no timezone found
+2026-06-08 10:52:43,801 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLARR.LS"}}}
+2026-06-08 10:52:44,255 - ERROR - $MLARR.LS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:52:44,268 - ERROR - 
+1 Failed download:
+2026-06-08 10:52:44,268 - ERROR - ['MLARR.LS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:53:16,736 - ERROR - MLAST.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 10:54:21,111 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLAZL.PA"}}}
+2026-06-08 10:55:22,075 - ERROR - MLBAR.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 10:56:29,651 - ERROR - $MLBIM.PA: possibly delisted; no timezone found
+2026-06-08 10:56:30,207 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLBIM.PA"}}}
+2026-06-08 10:56:30,568 - ERROR - $MLBIM.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:56:30,570 - ERROR - 
+1 Failed download:
+2026-06-08 10:56:30,571 - ERROR - ['MLBIM.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 10:56:57,542 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BACE.AS"}}}
+2026-06-08 10:57:12,605 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: BF.MI"}}}
+2026-06-08 11:02:04,158 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLMFI.PA"}}}
+2026-06-08 11:02:26,666 - ERROR - MLCOE.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:02:29,908 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLCOR.PA"}}}
+2026-06-08 11:06:00,573 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLEAS.PA"}}}
+2026-06-08 11:06:05,431 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLEAV.PA"}}}
+2026-06-08 11:06:45,504 - ERROR - $EGN.MI: possibly delisted; no timezone found
+2026-06-08 11:06:46,283 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EGN.MI"}}}
+2026-06-08 11:06:46,560 - ERROR - $EGN.MI: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:06:46,573 - ERROR - 
+1 Failed download:
+2026-06-08 11:06:46,573 - ERROR - ['EGN.MI']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:09:02,526 - ERROR - $MLESV.PA: possibly delisted; no timezone found
+2026-06-08 11:09:03,359 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLESV.PA"}}}
+2026-06-08 11:09:03,674 - ERROR - $MLESV.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:09:03,677 - ERROR - 
+1 Failed download:
+2026-06-08 11:09:03,677 - ERROR - ['MLESV.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:09:54,181 - ERROR - MLCAN.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:09:56,532 - ERROR - $ENXP.LS: possibly delisted; no timezone found
+2026-06-08 11:09:57,058 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ENXP.LS"}}}
+2026-06-08 11:09:57,400 - ERROR - $ENXP.LS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:09:57,410 - ERROR - 
+1 Failed download:
+2026-06-08 11:09:57,412 - ERROR - ['ENXP.LS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:10:55,347 - ERROR - MLECE.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:13:34,947 - ERROR - $MLGSH.LS: possibly delisted; no timezone found
+2026-06-08 11:13:35,484 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLGSH.LS"}}}
+2026-06-08 11:13:35,775 - ERROR - $MLGSH.LS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:13:35,779 - ERROR - 
+1 Failed download:
+2026-06-08 11:13:35,779 - ERROR - ['MLGSH.LS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:14:21,086 - ERROR - $MLGNS.PA: possibly delisted; no timezone found
+2026-06-08 11:14:21,675 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLGNS.PA"}}}
+2026-06-08 11:14:22,029 - ERROR - $MLGNS.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:14:22,033 - ERROR - 
+1 Failed download:
+2026-06-08 11:14:22,033 - ERROR - ['MLGNS.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:15:04,756 - ERROR - $MLGL.PA: possibly delisted; no timezone found
+2026-06-08 11:15:05,509 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLGL.PA"}}}
+2026-06-08 11:15:05,772 - ERROR - $MLGL.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:15:05,783 - ERROR - 
+1 Failed download:
+2026-06-08 11:15:05,784 - ERROR - ['MLGL.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:15:11,914 - ERROR - MLNDG.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:17:06,788 - ERROR - MLHAY.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:19:11,854 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLINT.PA"}}}
+2026-06-08 11:19:45,598 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLABC.PA"}}}
+2026-06-08 11:19:51,024 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ILLA.MI"}}}
+2026-06-08 11:19:59,872 - ERROR - $MLIME.PA: possibly delisted; no timezone found
+2026-06-08 11:20:00,444 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLIME.PA"}}}
+2026-06-08 11:20:00,710 - ERROR - $MLIME.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:20:00,722 - ERROR - 
+1 Failed download:
+2026-06-08 11:20:00,723 - ERROR - ['MLIME.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:20:31,368 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLIFS.PA"}}}
+2026-06-08 11:20:58,297 - ERROR - MLINM.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:21:02,572 - ERROR - MLISP.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:21:28,570 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLVIE.PA"}}}
+2026-06-08 11:21:59,340 - ERROR - MLIPO.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:26:22,863 - ERROR - MLMAC.LS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:26:34,653 - ERROR - MDATA.OL: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:27:00,915 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLMAQ.PA"}}}
+2026-06-08 11:27:56,563 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLMED.PA"}}}
+2026-06-08 11:28:10,239 - ERROR - MLMIV.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:29:32,334 - ERROR - MLMR.LS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:32:14,310 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLBIO.PA"}}}
+2026-06-08 11:33:42,145 - ERROR - MLOKP.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:34:32,398 - ERROR - MLORB.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:35:52,338 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLPER.PA"}}}
+2026-06-08 11:36:12,961 - ERROR - INPHI.AS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:37:35,205 - ERROR - PPLAA.AS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:37:37,197 - ERROR - PPLAB.AS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:37:39,136 - ERROR - PPLA.AS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:37:41,389 - ERROR - $PRXD.MI: possibly delisted; no timezone found
+2026-06-08 11:37:41,988 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PRXD.MI"}}}
+2026-06-08 11:37:42,339 - ERROR - $PRXD.MI: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:37:42,349 - ERROR - 
+1 Failed download:
+2026-06-08 11:37:42,350 - ERROR - ['PRXD.MI']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:39:43,902 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: REI.BR"}}}
+2026-06-08 11:40:06,660 - ERROR - MLJDL.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:41:00,208 - ERROR - MLRSR.LS: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:41:33,335 - ERROR - MLSAG.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:41:45,408 - ERROR - $MLSJA.PA: possibly delisted; no timezone found
+2026-06-08 11:41:46,041 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLSJA.PA"}}}
+2026-06-08 11:41:46,442 - ERROR - $MLSJA.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:41:46,455 - ERROR - 
+1 Failed download:
+2026-06-08 11:41:46,455 - ERROR - ['MLSJA.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:42:51,795 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ALSEI.PA"}}}
+2026-06-08 11:42:54,317 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SLCO.PA"}}}
+2026-06-08 11:43:54,992 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ALIE.PA"}}}
+2026-06-08 11:47:04,104 - ERROR - $MLSPI.PA: possibly delisted; no timezone found
+2026-06-08 11:47:04,717 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLSPI.PA"}}}
+2026-06-08 11:47:04,997 - ERROR - $MLSPI.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:47:05,000 - ERROR - 
+1 Failed download:
+2026-06-08 11:47:05,000 - ERROR - ['MLSPI.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:50:27,811 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MLALE.PA"}}}
+2026-06-08 11:51:03,096 - ERROR - $MLURC.PA: possibly delisted; no timezone found
+2026-06-08 11:51:03,688 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLURC.PA"}}}
+2026-06-08 11:51:04,055 - ERROR - $MLURC.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:51:04,060 - ERROR - 
+1 Failed download:
+2026-06-08 11:51:04,060 - ERROR - ['MLURC.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:51:36,224 - ERROR - MLVRE.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:52:06,105 - ERROR - $ALVER.PA: possibly delisted; no price data found  (1d 1927-07-03 -> 2026-06-08) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:52:06,688 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ALVER.PA"}}}
+2026-06-08 11:52:07,012 - ERROR - $ALVER.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:52:07,020 - ERROR - 
+1 Failed download:
+2026-06-08 11:52:07,020 - ERROR - ['ALVER.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:52:20,683 - ERROR - $MLVIC.PA: possibly delisted; no timezone found
+2026-06-08 11:52:21,396 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLVIC.PA"}}}
+2026-06-08 11:52:21,669 - ERROR - $MLVIC.PA: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:52:21,684 - ERROR - 
+1 Failed download:
+2026-06-08 11:52:21,684 - ERROR - ['MLVIC.PA']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:52:25,534 - ERROR - $MLVDN.LS: possibly delisted; no timezone found
+2026-06-08 11:52:26,158 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MLVDN.LS"}}}
+2026-06-08 11:52:26,492 - ERROR - $MLVDN.LS: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:52:26,496 - ERROR - 
+1 Failed download:
+2026-06-08 11:52:26,496 - ERROR - ['MLVDN.LS']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 11:53:23,814 - ERROR - MLVRF.PA: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 11:55:13,257 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: CV.PA"}}}
+2026-06-08 11:55:43,731 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 0007.HK"}}}
+2026-06-08 11:58:59,381 - ERROR - 0100.HK: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 12:12:42,804 - ERROR - 0501.HK: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 12:17:01,961 - ERROR - 0638.HK: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 12:18:56,908 - ERROR - 0699.HK: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 12:52:14,227 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 1863.HK"}}}
+2026-06-08 13:15:54,464 - ERROR - $2955.HK: possibly delisted; no timezone found
+2026-06-08 13:15:55,068 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2955.HK"}}}
+2026-06-08 13:15:55,444 - ERROR - $2955.HK: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 13:15:55,448 - ERROR - 
+1 Failed download:
+2026-06-08 13:15:55,449 - ERROR - ['2955.HK']: possibly delisted; no price data found  (period=5y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 13:16:00,835 - ERROR - 2960.HK: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 13:16:03,235 - ERROR - 2961.HK: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 13:16:05,715 - ERROR - 2962.HK: Period 'max' is invalid, must be one of: 1d, 5d
+2026-06-08 13:22:40,904 - ERROR - $4621.HK: possibly delisted; no price data found  (1d 1927-07-03 -> 2026-06-08)
+2026-06-08 13:22:41,521 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: 4621.HK"}}}
+2026-06-08 13:22:41,607 - ERROR - $4621.HK: possibly delisted; no price data found  (period=5y)
+2026-06-08 13:22:41,615 - ERROR - 
+1 Failed download:
+2026-06-08 13:22:41,615 - ERROR - ['4621.HK']: possibly delisted; no price data found  (period=5y)
+2026-06-08 13:35:05,911 - ERROR - $NONEUSD=X: possibly delisted; no price data found  (period=20y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-08 13:35:05,927 - ERROR - 
+1 Failed download:
+2026-06-08 13:35:05,927 - ERROR - ['NONEUSD=X']: possibly delisted; no price data found  (period=20y) (Yahoo error = "No data found, symbol may be delisted")
