@@ -1,0 +1,50 @@
+{
+    "best_trial_number": 43,
+    "best_score_n30": 3.6763394290051705,
+    "best_params": {
+        "lr": 0.000140867881074566,
+        "dropout_rate": 0.0,
+        "batch_size": 32,
+        "latent_dim": 4,
+        "emb_dim": 2,
+        "hidden_dims": "128",
+        "activation": "elu",
+        "beta": 0.00012878334717193008,
+        "free_bits": 0.0,
+        "kl_warmup_epochs": 0
+    },
+    "best_user_attrs": {
+        "avg_dr_euc_10": 2.454796733396114,
+        "avg_dr_euc_30": 3.6763394290051705,
+        "avg_dr_euc_50": 2.976557235494604,
+        "avg_dr_sim_10": 2.336670364445139,
+        "avg_dr_sim_30": 3.572330805261438,
+        "avg_dr_sim_50": 4.0738778275549965,
+        "final_metrics": {
+            "best_epoch": 238,
+            "train_loss": 0.5970095241066606,
+            "train_recon": 0.594712234322257,
+            "train_kl": 17.838405302431784,
+            "val_loss": 0.5978812379518068,
+            "val_recon": 0.5955937262009403,
+            "val_kl": 17.76244118292386,
+            "val_mape": 1.3582973353781829,
+            "beta": 0.00012878334717193008
+        },
+        "best_metric_n30": "euclidean"
+    },
+    "performance_overview": {
+        "N=10": {
+            "Euclidean": 2.454796733396114,
+            "Cosine": 2.336670364445139
+        },
+        "N=30": {
+            "Euclidean": 3.6763394290051705,
+            "Cosine": 3.572330805261438
+        },
+        "N=50": {
+            "Euclidean": 2.976557235494604,
+            "Cosine": 4.0738778275549965
+        }
+    }
+}
