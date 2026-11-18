@@ -50,7 +50,17 @@ class PriceData:
         if gap_days >= 2:
             weekly = weekly.iloc[:-1]
         return weekly
-
+    @staticmethod
+    def to_monthly_close(daily_close, month_anchor="M"):
+        """Aggregiert täglich -> monatlich. last() nimmt den letzten gültigen Kurs des Monats,
+        ist der ganze Monat NaN, bleibt NaN (kein Forward-Fill => keine künstlichen 0%-Renditen)."""
+        #Nimmt den letzten verfügbaren Kurs im Monat. Wenn ganzer Monat NaN dann auch da NaN
+        monthly = daily_close.resample(month_anchor).last()
+        # Unvollständigen laufenden Monat verwerfen (Toleranz 4 Tage für Feiertage/Wochenenden am Monatsende) Nur für letzten Monat in der Zeitreihe
+        gap_days = (monthly.index[-1] - daily_close.index.max()).days
+        if gap_days >= 5:
+            monthly = monthly.iloc[:-1]
+        return monthly
     @staticmethod
     def prepare_weekly_returns(weekly_close, max_nan_pct, log_returns=False):
         nan_share = weekly_close.isna().mean()
@@ -62,11 +72,13 @@ class PriceData:
         else:
             returns = px.pct_change(fill_method=None)   # kein implizites ffill
 
-        returns = returns.replace([np.inf, -np.inf], np.nan).dropna(how="all")
-
+        returns = returns.replace([np.inf, -np.inf], np.nan)
+        valid_dates = returns.dropna(how="all").index
+        returns = returns.loc[valid_dates]
+        px = px.loc[valid_dates]
         print(f"Eingangs-Ticker:          {weekly_close.shape[1]}")
         print(f"Nutzbare Ticker nach {max_nan_pct} Filterung: {returns.shape[1]}")
-        return returns
+        return (returns, px)
 
     @classmethod
     def execute(cls, tickers, start, end, max_nan_pct, log_returns=False):
@@ -79,7 +91,8 @@ class PriceData:
 
         daily = cls.fetch_close_prices(ticker_list, start, end)
         weekly = cls.to_weekly_close(daily)
-        return cls.prepare_weekly_returns(weekly, max_nan_pct, log_returns)
+        monthly = cls.to_monthly_close(daily)
+        return cls.prepare_weekly_returns(weekly, max_nan_pct, log_returns=False), cls.prepare_weekly_returns(monthly, max_nan_pct, log_returns=True)
     
 ###########################################################################################################################################
 class DistanceMetrics:

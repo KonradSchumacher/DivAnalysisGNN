@@ -30,6 +30,18 @@ class DataPrep:
         print(f"Val Rows:   {len(val)} ({len(val_entities)} Firmen)")
         print(f"Test Rows:  {len(test)} ({len(test_entities)} Firmen)")
         return train, val, test
+    
+    def time_split(data: pd.DataFrame, test_cutoff_date, val_months: int = 3):
+        # Sicherstellen, dass Date und Cutoff echte Timestamps sind
+        dates = pd.to_datetime(data['Date'])
+        val_end = pd.to_datetime(test_cutoff_date)
+        train_end = val_end - pd.DateOffset(months=val_months)
+
+        train = data[dates <= train_end].copy()
+        val = data[(dates > train_end) & (dates <= val_end)].copy()
+        test = data[dates > val_end].copy()
+
+        return train, val, test
 
     def robust_scaling(dataset: pd.DataFrame, scaler: Optional[RobustScaler] = None):
         if scaler is None:
@@ -46,15 +58,22 @@ class DataPrep:
         scaled_array = np.nan_to_num(scaled, nan=0.0).astype(np.float32)
         return scaled_array, mask, scaler
 
-    def full_data_prep(train_size, val_size, test_size, test_cutoff_date, random_state):
+    def full_data_prep(train_size, val_size, test_size, test_cutoff_date, random_state, gnn=True):
         data = joblib.load("../../data/03_gold/full_data.pkl")
         df = data['data']
         usable_features = data['usable_features']
-        train, val, test = DataPrep.data_split(df, train_size, val_size, test_size, test_cutoff_date, random_state)
-        test_entities = test['EntityCode'].values.tolist()
-        val_entities = val['EntityCode'].values.tolist()
+        if gnn == True:
+            train, val, test = DataPrep.time_split(df, test_cutoff_date)
+        else:
+            train, val, test = DataPrep.data_split(df, train_size, val_size, test_size, test_cutoff_date, random_state)
+        test_entities = test['EntityCode']
+        val_entities = val['EntityCode']
+        train_entities = train['EntityCode']
+        train_dates = train['Date']
+        val_dates = val['Date']
+        test_dates = test['Date']
         train, train_mask, scaler = DataPrep.transformation(train, usable_features, None)
         val, val_mask, _ = DataPrep.transformation(val, usable_features, scaler)
         test, test_mask, _ = DataPrep.transformation(test, usable_features, scaler)
-        data_preped = {"train": train, "train_mask": train_mask, "val": val, "val_mask": val_mask, "val_entities": val_entities, "test": test, "test_mask": test_mask, "test_entities": test_entities, "usable_features": usable_features, "scaler": scaler}
+        data_preped = {"train": train, "train_mask": train_mask, "train_entities": train_entities, "train_dates": train_dates, "val": val, "val_mask": val_mask, "val_entities": val_entities, "val_dates": val_dates,"test": test, "test_mask": test_mask, "test_entities": test_entities, "test_dates": test_dates,"usable_features": usable_features, "scaler": scaler}
         return data_preped
