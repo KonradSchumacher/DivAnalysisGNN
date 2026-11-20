@@ -81,7 +81,7 @@ class ContextEncoder(nn.Module):
         for t, lin in enumerate(self.proj): # Hier werden die Knotentypen also Rohstoff, Zins und Makro rausgefiltert und durch die dafür vorgesehenen Linearen Schichten gedrückt, damit die Zeitreihen Embeddings heruaskommen
             idx = self.node_type == t
             if idx.any():
-                h[:, idx] = lin(x[:, idx])
+                h[:, idx] = lin(x[:, idx]).to(h.dtype)
         h = h + (self.e_type(self.node_type) + self.e_entity(self.node_entity) + self.e_country(self.node_country)) # Hier wird auf das Zeitreihenembedding dann die NodeTyp, EntityTyp und Land Embeddings addiert.
         h = self.norm(h) * mask.unsqueeze(-1) # Setzt alle Werte wo eine NaN Waren auf 0 damit sie in einer optionalen message passing innerhalb der Kontexnodes nicht weitergeleitet wird.
         if self.self_attn is not None:

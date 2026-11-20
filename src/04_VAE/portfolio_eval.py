@@ -92,7 +92,7 @@ class PriceData:
         daily = cls.fetch_close_prices(ticker_list, start, end)
         weekly = cls.to_weekly_close(daily)
         monthly = cls.to_monthly_close(daily)
-        return cls.prepare_weekly_returns(weekly, max_nan_pct, log_returns=False), cls.prepare_weekly_returns(monthly, max_nan_pct, log_returns=True)
+        return cls.prepare_weekly_returns(weekly, max_nan_pct), cls.prepare_weekly_returns(monthly, max_nan_pct)
     
 ###########################################################################################################################################
 class DistanceMetrics:

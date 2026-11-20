@@ -217,28 +217,3 @@ class Modeltraining:
         mu, _ = model.encoder(emb)
         return mu.cpu().numpy()
 
-    @torch.no_grad()
-    def evaluate_reconstruction(model, X, M, device=None, feature_names=None):
-        """
-        Maskierter Reconstruction-Error (MSE) auf tatsächlich BEOBACHTETEN Werten.
-        Das ist die einzige Stelle, an der man direkt gegen Ground Truth prüfen kann -
-        für echte Missing-Werte gibt es ja keinen wahren Wert zum Vergleichen.
-        Gibt overall MSE + MSE pro Feature zurück (zeigt, welche Items gut/schlecht
-        modelliert werden).
-        """
-        device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        model.eval().to(device)
-
-        x = torch.as_tensor(X, dtype=torch.float32).to(device)
-        m = torch.as_tensor(M, dtype=torch.float32).to(device)
-
-        x_hat, mu, logvar = model(x, m)
-        sq_error = (x - x_hat) ** 2 * m
-
-        overall_mse = (sq_error.sum() / m.sum().clamp(min=1.0)).item()
-        per_feature_mse = (sq_error.sum(dim=0) / m.sum(dim=0).clamp(min=1.0)).cpu().numpy()
-
-        result = {"overall_mse": overall_mse, "per_feature_mse": per_feature_mse}
-        if feature_names is not None:
-            result["per_feature_mse"] = dict(zip(feature_names, per_feature_mse))
-        return result

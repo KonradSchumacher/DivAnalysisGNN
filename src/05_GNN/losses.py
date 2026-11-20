@@ -80,7 +80,7 @@ class MultiTaskLoss(nn.Module):
 
     def __init__(self, corr_loss: nn.Module, ret_loss: Optional[nn.Module] = None,
                  ret_weight: float = 0.1, uncertainty_weighting: bool = False,
-                 min_obs: int = 20):
+                 min_obs: int = 8):
         super().__init__()
         self.corr_loss, self.ret_loss = corr_loss, ret_loss
         self.ret_weight, self.uw, self.min_obs = ret_weight, uncertainty_weighting, min_obs
